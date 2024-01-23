@@ -1,0 +1,21 @@
+
+TODO APP - 
+ - CRUD (Create, Read, Update & Delete)
+
+
+- Traffic 
+ - Users
+
+- Features
+ - Auth
+ - Should be able to create a TODO - Done
+ - Should be able to view the TODOs created by user itself - Done 
+ - Should be able to update a TODO created by user itself. - Done
+    - User A x User B
+    - Auth
+ - Should be delete his/her own TODOs. - Done
+
+- Schemas
+ - User
+ (one to many)
+ - TODO
