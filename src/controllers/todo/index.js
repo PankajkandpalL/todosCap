@@ -18,7 +18,7 @@ const createTodoHandler = async(req, res)=>{
 
     try {
         const isTodo = new Todo({title, status, description, user});
-        isTodo.save();
+        await isTodo.save();
         return res.status(201).send({ error : false, items : { data : isTodo, message : "Todo created successfully" }});
     } catch (error) {
         return res.status(500).send({ error : true, message : error.message });
